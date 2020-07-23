@@ -1,0 +1,14 @@
+{
+    "dbPath": "mongodb://localhost:27017/tambola",
+    "port": 3777,
+    "settings": [
+        "=[tor.start]",
+        "=[copp.start]"
+    ],
+    "whiteListOrigin": [
+        "http://localhost:4200"
+    ],
+    "secert": "mySecretKey",
+    "tokenExpiryInHr": 864000,
+    "backgroundJobCronSchedule": "* * * * *" 
+}
